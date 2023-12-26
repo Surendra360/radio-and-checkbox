@@ -1,0 +1,74 @@
+* {
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+width: 100%;
+height: 100%;
+background-image: url(https://static.vecteezy.com/system/resources/previews/010/527/170/original/beautiful-forest-panoramic-realistic-neon-vivid-background-landscape-purple-trees-pine-in-mist-design-mystery-fog-in-park-sunset-concept-nature-beauty-tourism-web-banner-free-vector.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(26, 26, 26);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 60%;
+    height: 80vh;
+    background-color: rgba(232, 232, 232, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 70px;
+    box-shadow: 0 0 10px white;
+
+}
+.btn{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+p{
+    font-size: 22px;
+    margin: 2px;
+}
+input{
+    width: 18px;
+    height: 18px;
+}
+
+.B{
+    accent-color: rgb(71, 2, 198);
+}
+.J{
+    accent-color: rgb(157, 0, 193);
+}
+.N{
+    accent-color: rgb(0, 115, 255);
+}
+.H{
+    accent-color: rgb(7, 136, 0);
+}
+.P{
+    accent-color: rgb(227, 243, 0);
+}
+.Na{
+    accent-color: rgb(255, 145, 0);
+}
+.L{
+    accent-color: rgb(255, 0, 0);
+}
+.ch{
+    accent-color: rgb(0, 0, 0);
+}
